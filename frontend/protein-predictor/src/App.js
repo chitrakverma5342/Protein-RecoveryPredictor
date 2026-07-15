@@ -52,10 +52,8 @@ function App() {
   return (
   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
     
-    {/* Left image */}
     <img src={leftImage} alt="left" style={{ width: '180px', height: 'auto' }} />
 
-    {/* Your existing form div goes here untouched */}
     <div style={{ maxWidth: '480px', margin: '0 40px', fontFamily: 'sans-serif', padding: '0 16px' }}>
       <h2>Protein Recovery Predictor</h2>
 
@@ -136,7 +134,6 @@ function App() {
 
     </div>
 
-      {/* Right image */}
     <img src={rightImage} alt="right" style={{ width: '180px', height: 'auto' }} />
   </div>
   );
